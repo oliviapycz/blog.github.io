@@ -1,0 +1,94 @@
+*{
+  margin: 0px;
+  box-sizing: padding-box;
+}
+body{
+  background-color: lightgrey;
+}
+#bloc_page{
+  margin: auto;
+}
+header{
+  height: 25vh;
+  border-bottom: 2px solid black;
+  background-image: url(../images/header.jpg);
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+/*
+footer{
+  height: 15vh;
+  border-top: 2px solid black;
+  background-image: url(../images/footer.jpg);
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+*/
+#logo{
+  display: flex;
+  flex-direction: row;
+}
+#logo img{
+  width: 200px;
+  margin-bottom: 25px;
+}
+h1{
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+  font-size: 60px;
+  display: flex;
+}
+h2{
+  margin-right: 20px;
+  font-family: 'Indie Flower', cursive;
+  font-size: 60px;
+  display: flex;
+}
+h3{
+    font-family: 'Indie Flower', cursive;
+}
+#container{
+  width: auto;
+  display: flex;
+  flex-direction: row;
+  margin-top: 60px;
+  justify-content: space-around;
+  margin-right: 100px;
+  margin-left: 150px;
+
+}
+#nav{
+  display: flex;
+  justify-content: space-between;
+      border-bottom: 2px solid;
+      margin: 10px;
+      padding: 0;
+}
+.element1{
+  width: 750px;
+  border: 2px solid;
+  border-radius: 5px;
+}
+.element2{
+  width: 200px;
+  border: 2px solid;
+  border-radius: 5px;
+}
+.inline{
+    display: inline-block;
+
+}
+p{
+  font-size: 40px;
+  text-align: center;
+    font-family: 'Indie Flower', cursive;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+ul{
+  list-style: none;
+}

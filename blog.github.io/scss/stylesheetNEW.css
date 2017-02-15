@@ -1,0 +1,20 @@
+header{
+  width: 95%;
+  margin: auto;
+  background-image: url("images/arctic.jpg");
+  border: 1px solid grey;
+  box-shadow: 8px 8px 5px grey;
+}
+
+@font-face {
+    font-family: "alexbrush";
+    font-family: "kaushan";
+    src: url("alex-brush/AlexBrush-Regular.ttf");
+    src: url("kaushan-script/KaushanScript-Regular.otf");
+}
+
+section{
+font-family: "kaushan";
+font-size: 30px;
+  margin-left: 30px;
+}
